@@ -1,0 +1,38 @@
+h1 {
+	font-size: 55px;
+
+}
+div {
+	background: url(./img/60.jpg) 0 0 no-repeat;
+}
+.gf {
+	font-size: 12px;
+	display: flex;
+	@media screen and (max-width: 1484px) {
+				padding-left: 8px;
+			}
+			@media screen and (max-width: 800px) {
+				margin: 10px;
+				justify-content: space-around;
+			}
+}
+
+.header {
+
+		&__nav {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding-left: 192px;
+			@media screen and (max-width: 1484px) {
+				padding-left: 83px;
+			}
+			@media screen and (max-width: 1056px) {
+				padding-left: 20px;
+			}
+			@media screen and (max-width: 800px) {
+				margin: 10px;
+				justify-content: space-around;
+			}
+		}
+	}
